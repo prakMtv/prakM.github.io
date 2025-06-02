@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 150px;
+    background-image: url('https://images6.alphacoders.com/641/thumb-1920-641430.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 0.6em;
+    font-weight: normal;
+    color: #c2c2c2;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 320px;
+    min-width: 180px;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 44px;
+    font-size: 1.1em;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(150, 150, 150, 0.2), 0 4px 6px rgba(150, 150, 150, 0.1); 
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+a i {
+    position: absolute;
+    left: 20px;
+    font-size: 1.2em;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.link-text {
+    width: 100%;
+    text-align: center;
+    pointer-events: none; 
+}
+
+.profile-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    background: #fff;
+}
+
+body.dark-mode {
+    background-color: #181818;
+    color: #f0f0f0;
+}
+
+body.dark-mode a {
+    background-color: #222;
+    color: #f0f0f0;
+    box-shadow: 0 8px 15px rgba(30,30,30,0.4), 0 4px 6px rgba(30,30,30,0.2);
+}
+
+body.dark-mode a:hover {
+    background-color: #444;
+}
+
+body.dark-mode .circle-img {
+    border: 3px solid #f0ad4e;
+    background: #222;
+}
