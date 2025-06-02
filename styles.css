@@ -134,8 +134,17 @@ body.dark-mode .circle-img {
         margin-top: 20px;
     }
     a {
-        min-width: 100px;
+        min-width: 90vw;
+        max-width: 95vw;
         font-size: 1em;
-        padding: 8px 10px;
+        padding: 8px 10px 8px 44px; /* extra left padding for icon */
+    }
+    .link-text {
+        padding-left: 18px; /* ensures text doesn't overlap icon */
+        text-align: left;
+    }
+    a i {
+        left: 14px;
+        font-size: 1.2em;
     }
 }
